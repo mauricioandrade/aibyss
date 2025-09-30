@@ -1,214 +1,111 @@
-🎉 Bem-vindo ao guia de contribuição! 🎉
+# 🎉 Bem-vindo ao guia de contribuição! 🎉
 
-Antes de tudo, OBRIGADO por dedicar seu tempo para contribuir com este projeto! 🙌 Antes de começar, vamos revisar algumas diretrizes para tornar o processo o mais tranquilo (e divertido!) possível.
+Antes de tudo, OBRIGADO por dedicar seu tempo para contribuir com este projeto! 🙌 Antes de começar, vamos revisar algumas diretrizes para tornar o processo o mais tranquilo (e agradável!) possível.
 
+## 💻 Como Começar
 
+1. **Escolha uma issue:**
+   - Navegue pelas [issues existentes](https://github.com/move-fast-and-break-things/aibyss/issues) para encontrar algo em que você gostaria de trabalhar.
+   - Se encontrar uma issue em que gostaria de trabalhar, por favor comente nela para avisar aos outros que você está trabalhando nela.
 
-💻 Como Começar
+2. **Crie uma issue:**
+   - Se você não encontrar uma issue existente que corresponda ao que deseja trabalhar, você pode [criar uma nova issue](https://github.com/move-fast-and-break-things/aibyss/issues/new).
+   - Por favor, forneça o máximo de detalhes possível na descrição da issue.
+   - Aguarde a issue ser discutida e aprovada pelos mantenedores do repositório.
+   - Uma vez aprovada, por favor comente nela para avisar aos outros que você está trabalhando nela.
 
-Escolha uma issue:
+## 🚀 Pronto para Começar? Veja Como Enviar Suas Alterações!
 
+1. **Faça um fork do repositório (pule esta etapa se você tiver acesso de escrita ao repositório):** clique em **"Fork"** na página do repositório para criar uma cópia na sua conta.
 
+2. **Clone o repositório:**
+   - Se você não tiver acesso de escrita, clone seu fork e crie sua branch a partir da `main`
+   - Se você tiver acesso de escrita, clone o repositório diretamente e crie sua branch a partir da `main`
 
-Navegue pelas issues existentes para encontrar algo em que gostaria de trabalhar.
+3. **Trabalhe na issue:** faça alterações no código. Programe com todo seu coração! ✨
+4. **Faça commit das suas alterações:** use mensagens de commit descritivas explicando suas mudanças. Seguimos [a especificação de commits convencionais](https://www.conventionalcommits.org/en/v1.0.0/).
+5. **Faça push e abra um pull request:** faça push da sua branch e abra um pull request com uma descrição clara das suas alterações.
 
+## 🎉 Do Código ao PR: Seu Guia para Enviar um Pull Request
 
+Para garantir um processo de revisão tranquilo, por favor siga estas diretrizes ao enviar um pull request:
 
-Se encontrar uma issue que deseja resolver, comente nela para que os outros saibam que você está trabalhando nisso.
+1. **Certifique-se de que seu código está atualizado:**
+   - Antes de começar seu trabalho, certifique-se de puxar as últimas alterações da branch `main`.
+   - Se houver conflitos entre sua branch e a `main`, resolva-os localmente antes de enviar seu PR.
 
+2. **Nomenclatura de branches:** use um nome de branch descritivo que reflita as alterações.
 
+3. **Mensagens de commit:**
+   - Escreva mensagens de commit claras e concisas que expliquem o propósito das alterações.
+   - Use o tempo presente, por exemplo, "Adiciona funcionalidade de login" em vez de "Adicionou funcionalidade de login."
 
-Crie uma issue:
+4. **Descrição:**
+   - Forneça uma descrição clara das alterações feitas no pull request.
+   - Se as alterações estiverem relacionadas a uma issue específica, faça referência na descrição do PR.
 
+5. **Faça perguntas:** ❓ se você não tiver certeza sobre algo, não hesite em perguntar! Estamos aqui para ajudar uns aos outros.
 
+6. **Inclua uma demonstração:** por favor, mostre o impacto das suas alterações incluindo capturas de tela antes/depois ou um vídeo curto de demonstração. Elementos visuais tornam tudo melhor. 😎
 
-Se não encontrar uma issue existente que corresponda ao que você quer fazer, crie uma nova.
+7. **Teste suas alterações:** certifique-se de testar suas alterações localmente para garantir que funcionem conforme esperado.
 
+8. **Título do pull request:**
+   - Use um título descritivo para seu pull request, como "Corrige alinhamento do botão de busca".
+   - Siga [a especificação de commits convencionais](https://www.conventionalcommits.org/en/v1.0.0/)
 
+9. **Solicite uma revisão:**
+   - Assim que seu PR estiver pronto, solicite uma revisão de um dos mantenedores.
+   - Esteja aberto a feedback e faça alterações conforme solicitado.
 
-Forneça o máximo de detalhes possível na descrição.
+## 🧐 Processo de Revisão de Código
 
+### 💌 Como Receber Revisão de Código
 
+Como contribuidor enviando um pull request, por favor siga estas diretrizes ao receber feedback:
 
-Aguarde a discussão e aprovação pelos mantenedores do repositório.
+1. **Esteja aberto a feedback:** 🤗
+   - A revisão de código é um processo colaborativo destinado a melhorar o código.
+   - Esteja aberto a sugestões e não leve o feedback para o lado pessoal. Você não é seu código.
 
+2. **Compreenda o feedback:**
+   - Leia os comentários de revisão cuidadosamente. Se algo não estiver claro, sinta-se à vontade para pedir esclarecimentos.
 
+3. **Faça as alterações necessárias:**
+   - Atenda ao feedback fazendo alterações no seu código.
+   - Faça commit das suas alterações na mesma branch e faça push das atualizações.
 
-Uma vez aprovada, comente na issue para avisar que você está trabalhando nela.
+4. **Notifique os revisores:** adicione um comentário no pull request para notificar os revisores de que você fez as alterações solicitadas.
 
+5. **Discuta mais se necessário:**
+   - Se você discordar de uma sugestão, explique seu raciocínio respeitosamente nos comentários.
+   - Colabore com o revisor para encontrar a melhor solução.
 
+6. **Mantenha-se engajado:**
+   - Seja responsivo a comentários ou perguntas adicionais.
+   - A revisão de código é um processo iterativo. Continue melhorando seu pull request com base no feedback até que esteja pronto para ser mesclado.
+   - Se o PR for aprovado, o contribuidor ou mantenedor pode mesclá-lo.
 
-🚀 Pronto para começar? Veja como enviar suas mudanças!
+### 🔍 Como Realizar uma Revisão de Código
 
+Se você é um contribuidor ou mantenedor e deseja revisar um pull request, por favor siga estas diretrizes:
 
+1. **Compreenda as alterações:**
+   - Leia a descrição do pull request para entender as alterações propostas.
+   - Olhe as issues relacionadas (se mencionadas) para entender o contexto.
 
-Fork do repositório (pule este passo se você já tiver acesso de escrita): clique em "Fork" para criar uma cópia no seu perfil.
+2. **Revise o código:**
+   - Seja um detetive de código! 🕵️‍♂️ Verifique o código quanto à clareza e legibilidade.
+   - Verifique se o código é eficiente e livre de bugs óbvios ou problemas de segurança.
 
-
-
-Clone o repositório:
-
-
-
-Se não tiver acesso de escrita, clone o fork e crie sua branch a partir da main.
-
-
-
-Se tiver acesso, clone o repositório diretamente e crie sua branch a partir da main.
-
-
-
-Trabalhe na issue: faça alterações no código. Code o máximo que puder! ✨
-
-
-
-Commit: use mensagens descritivas seguindo a especificação de conventional commits.
-
-
-
-Push e PR: envie sua branch e abra um pull request com uma descrição clara das mudanças.
-
-
-
-🎉 Do Código ao PR: Guia para Submeter um Pull Request
-
-
-
-Mantenha seu código atualizado:
-
-
-
-Antes de começar, puxe as últimas mudanças da main.
-
-
-
-Se houver conflitos, resolva-os localmente antes de enviar o PR.
-
-
-
-Nome da branch: use nomes descritivos que reflitam as mudanças.
-
-
-
-Mensagens de commit:
-
-
-
-Escreva de forma clara e concisa.
-
-
-
-Use o tempo presente: “Adiciona login” em vez de “Adicionou login”.
-
-
-
-Descrição do PR:
-
-
-
-Explique claramente as mudanças feitas.
-
-
-
-Se relacionado a uma issue, referencie-a.
-
-
-
-Faça perguntas: ❓ não hesite em pedir ajuda.
-
-
-
-Inclua um demo: use prints ou vídeos curtos mostrando o antes/depois.
-
-
-
-Teste seu código: valide localmente antes de enviar.
-
-
-
-Título do PR: seja descritivo, ex.: “Corrige alinhamento do botão de busca”.
-
-
-
-Solicite revisão: peça análise de um mantenedor, aceite feedbacks e faça ajustes.
-
-
-
-🧐 Processo de Revisão de Código
-
-
-
-💌 Como Receber uma Revisão
-
-
-
-Esteja aberto ao feedback 🤗: revisão é colaboração, não algo pessoal.
-
-
-
-Entenda os comentários: leia com atenção e peça esclarecimentos se necessário.
-
-
-
-Faça as mudanças: aplique o feedback, commit na mesma branch e avise os revisores.
-
-
-
-Discuta quando preciso: se não concordar, explique respeitosamente.
-
-
-
-Mantenha-se engajado: revisão é iterativa até o PR estar pronto para merge.
-
-
-
-Merge: quando aprovado, o mantenedor ou o colaborador pode mesclar.
-
-
-
-🔍 Como Fazer uma Revisão de Código
-
-
-
-Entenda as mudanças: leia a descrição e as issues relacionadas.
-
-
-
-Revise o código: verifique clareza, legibilidade, eficiência e segurança.
-
-
-
-Dê feedback construtivo 💬:
-
-
-
-Comente em trechos específicos.
-
-
-
-Seja educado e sugira melhorias de forma positiva.
-
-
-
-Use frases como “Considere...”, “Poderíamos...” ou “Talvez seja melhor...”.
-
-
-
-Aprove ou solicite mudanças:
-
-
-
-Se tudo estiver bom, aprove.
-
-
-
-Se tiver dúvidas, teste localmente antes de aprovar.
-
-
-
-Se precisar de ajustes, solicite mudanças e explique o que melhorar.
-
-
-
-✨ Obrigado por contribuir! Você é incrível, e seu trabalho é muito valorizado. Vamos construir coisas incríveis juntos! 🚀
-
+3. **Forneça feedback construtivo:** 💬
+   - Deixe comentários em linhas ou seções específicas do código.
+   - Seja construtivo e educado no seu feedback. Sugira melhorias e explique por que certas alterações podem ser benéficas.
+   - Use frases como "Considere...", "Poderíamos...", ou "Pode ser melhor..." para manter o feedback positivo.
+
+4. **Aprove ou solicite alterações:**
+   - Se o pull request estiver pronto, aprove-o.
+   - Se tiver dúvidas, puxe a branch localmente e verifique se funciona conforme esperado antes de aprovar.
+   - Se precisar de alterações, selecione "Solicitar Alterações" e deixe feedback detalhado sobre o que deve ser melhorado.
+
+Obrigado por contribuir! Você é incrível, e seu trabalho é muito apreciado. Vamos construir coisas incríveis juntos ✨
